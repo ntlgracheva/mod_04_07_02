@@ -6,12 +6,7 @@ let m = +prompt('Введите второе целое число для огр
 let max = n > m ? n : m;
 let min = m < n ? m : n;
 
-console.log(`max = ${max}`);
-console.log(`min = ${min}`);
-
 let randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
-
-console.log(`randomNum = ${randomNum}`);
 
 
 let userNumbers = [];
